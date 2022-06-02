@@ -8,5 +8,5 @@
   - Json datahandling
  
  ![NaverMovieFinder](https://github.com/carhartt0/StudyWpf/blob/main/capture/interstellar.png)
-
+ ![NaverMovieFinder](https://github.com/carhartt0/StudyWpf/blob/main/capture/mat.png)
 
