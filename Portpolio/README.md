@@ -14,8 +14,7 @@
 
 <br/>
 
- ![NaverMovieFinder]([https://github.com/carhartt0/StudyWpf/blob/main/capture/interstellar.png](https://github.com/carhartt0/StudyWpf/blob/main/capture/interstellar.png?raw=true)
- ![NaverMovieFinder]([https://github.com/carhartt0/StudyWpf/blob/main/capture/mat.png](https://github.com/carhartt0/StudyWpf/blob/main/capture/mat.png?raw=true)
+ ![NaverMovieFinder](https://github.com/carhartt0/StudyWpf/blob/main/capture/interstellar.png)
 실행화면
 
 <br/>
