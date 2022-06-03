@@ -158,7 +158,7 @@ namespace WpfNaverMovieFinder
                     Link = item.Link,
                     Image = item.Image,
                     SubTitle = item.SubTitle,
-                    PubDate = item.Pubdate,
+                    PubDate = item.PubDate,
                     Director = item.Director,
                     Actor = item.Actor,
                     UserRating = item.UserRating,

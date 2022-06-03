@@ -59,8 +59,8 @@
                   SelectedCellsChanged="grdResult_SelectedCellsChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Title}" Header="한글제목" FontWeight="Bold"/>
-                <DataGridTextColumn Binding="{Binding subTitle}" Header="영어제목" />
-                <DataGridTextColumn Binding="{Binding Pubdate}" Header="상영년도" />
+                <DataGridTextColumn Binding="{Binding SubTitle}" Header="영어제목" />
+                <DataGridTextColumn Binding="{Binding PubDate}" Header="상영년도" />
                 <DataGridTextColumn Binding="{Binding Director}" Header="감독" />
                 <DataGridTextColumn Binding="{Binding Actor}" Header="배우" />
                 <DataGridTextColumn Binding="{Binding UserRating}" Header="네티즌평점" />
