@@ -8,7 +8,7 @@
         xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
         xmlns:local="clr-namespace:WpfNaverMovieFinder"
         mc:Ignorable="d"
-        Title="Naver MovieFinder v2.0" Height="650" Width="1024" ResizeMode="NoResize" ShowTitleBar="True">
+        Title="Naver MovieFinder v2.0" Height="650" Width="1024" ResizeMode="NoResize" ShowTitleBar="True" Icon="naver_icon.png">
     <mah:MetroWindow.IconTemplate>
         <DataTemplate>
             <iconPacks:PackIconSimpleIcons Kind="Naver" Margin="5,7,0,0"
@@ -37,6 +37,7 @@
                      mah:TextBoxHelper.Watermark="검색할 영화명 입력"
                      mah:TextBoxHelper.UseFloatingWatermark="True"
                      mah:TextBoxHelper.ClearTextButton="True"
+                     Style="{StaticResource MahApps.Styles.TextBox}"
                      KeyDown="txtSearchName_KeyDown"/>
             <Button x:Name="btnSearch" Width="130" Margin="5,10" FontSize="14"
                     Content="검색" Click="btnSearch_Click">
@@ -74,7 +75,8 @@
         <!-- 버튼 영역 -->
         <StackPanel Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Orientation="Horizontal" >
             <Button x:Name="btnAddWatchList" Content="즐겨찾기 추가" Margin="10"
-                    Width="150" FontSize="12" Click="btnAddWatchList_Click">
+                    Style="{StaticResource MahApps.Styles.Button.MetroSquare}"
+                    Width="150" FontSize="12" Height="60" Click="btnAddWatchList_Click">
                 <Button.ContentTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
@@ -86,6 +88,7 @@
             </Button>
             
             <Button x:Name="btnViewWatchList" Content="즐겨찾기 보기" Margin="10"
+                    Style="{StaticResource MahApps.Styles.Button.Hamburger}"
                     Width="150" FontSize="12" Click="btnViewWatchList_Click">
                 <Button.ContentTemplate>
                     <DataTemplate>
@@ -109,6 +112,19 @@
                 </Button.ContentTemplate>
             </Button>
 
+            <Button x:Name="btnWatchTrailer" Content="예고편 보기" Margin="10"
+                    Width="150" FontSize="12" Click="btnWatchTrailer_Click">
+                <Button.ContentTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding}" Margin="10,0" />
+                            <iconPacks:PackIconForkAwesome Kind="YoutubePlay" />
+                        </StackPanel>
+                    </DataTemplate>
+                </Button.ContentTemplate>
+            </Button>
+        
+            
             <Button x:Name="btnNaverMovie" Content="네이버 영화" Margin="10"
                     Width="150" FontSize="12" Click="btnNaverMovie_Click">
                 <Button.ContentTemplate>
