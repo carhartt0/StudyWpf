@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCaliburnApp", "WpfCaliburnApp.csproj", "{96BD4508-02EF-4CF6-A176-B53B96BCF0F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96BD4508-02EF-4CF6-A176-B53B96BCF0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96BD4508-02EF-4CF6-A176-B53B96BCF0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96BD4508-02EF-4CF6-A176-B53B96BCF0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96BD4508-02EF-4CF6-A176-B53B96BCF0F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7594BD6-5792-4D2F-9101-6182F1A8A6DF}
+	EndGlobalSection
+EndGlobal

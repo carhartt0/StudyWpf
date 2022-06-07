@@ -11,6 +11,7 @@ namespace WpfMvvmApp.Models
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string FullName { get; set; }
         private string email;
         public string Email
         {
