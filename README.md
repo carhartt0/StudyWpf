@@ -21,7 +21,7 @@ C# WPF 학습 리포지토리
 
 ## Day 4일차
 - 네이버 영화 앱 마무리( [클릭](https://github.com/carhartt0/StudyWpf/tree/main/Portpolio) )
-- 네이버 뉴스검색 앱 ( [클릭](https://github.com/carhartt0/StudyWpf/blob/main/Portpolio/README.md#naver-%EB%89%B4%EC%8A%A4%EA%B2%80%EC%83%89) )
+- 네이버 뉴스검색 앱 ( [클릭]([https://github.com/carhartt0/StudyWpf/blob/main/Portpolio/README.md#naver-%EB%89%B4%EC%8A%A4%EA%B2%80%EC%83%8](https://github.com/carhartt0/StudyWpf/blob/main/Portpolio/README.md#naver-%EB%89%B4%EC%8A%A4%EA%B2%80%EC%83%89) )
 
 ## Day 5일차
 - MVVM 패턴 학습
