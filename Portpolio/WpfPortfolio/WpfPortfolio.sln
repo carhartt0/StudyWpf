@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfNaverMovieFinder", "WpfN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfNaverNewsSearch", "WpfNaverNewsSearch\WpfNaverNewsSearch.csproj", "{F2ADA410-AC2D-4590-A754-C1BF7B7AEE5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyDataApp", "DummyDataApp\DummyDataApp.csproj", "{D8053348-3F4A-4158-BF88-F048852D18F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SmartHome", "SmartHome", "{2DC0A820-E275-4D2A-91DA-3AE1936680D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSmartHomeMonitoringApp", "WpfSmartHomeMonitoringApp\WpfSmartHomeMonitoringApp.csproj", "{7C7EE461-471F-4681-B752-8F67C52AB0E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +27,21 @@ Global
 		{F2ADA410-AC2D-4590-A754-C1BF7B7AEE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2ADA410-AC2D-4590-A754-C1BF7B7AEE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2ADA410-AC2D-4590-A754-C1BF7B7AEE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8053348-3F4A-4158-BF88-F048852D18F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8053348-3F4A-4158-BF88-F048852D18F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8053348-3F4A-4158-BF88-F048852D18F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8053348-3F4A-4158-BF88-F048852D18F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C7EE461-471F-4681-B752-8F67C52AB0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7EE461-471F-4681-B752-8F67C52AB0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7EE461-471F-4681-B752-8F67C52AB0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7EE461-471F-4681-B752-8F67C52AB0E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8053348-3F4A-4158-BF88-F048852D18F2} = {2DC0A820-E275-4D2A-91DA-3AE1936680D9}
+		{7C7EE461-471F-4681-B752-8F67C52AB0E5} = {2DC0A820-E275-4D2A-91DA-3AE1936680D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A8E748B-B068-41B0-AD78-74262F733F27}
