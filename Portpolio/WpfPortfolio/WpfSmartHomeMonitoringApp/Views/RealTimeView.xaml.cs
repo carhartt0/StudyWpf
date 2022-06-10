@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace WpfSmartHomeMonitoringApp.Views
 {
     /// <summary>
-    /// RealtimeView.xaml에 대한 상호 작용 논리
+    /// RealTimeView.xaml에 대한 상호 작용 논리
     /// </summary>
     public partial class RealTimeView : UserControl
     {
