@@ -26,6 +26,8 @@ C# WPF 학습 리포지토리
 ## Day 5일차
 - MVVM 패턴 학습
 
+## Day 6일차
+
 ## Day 7일차
 - SmartHome 시스템 만들기 ( [클릭](https://github.com/carhartt0/StudyWpf/tree/main/Portpolio#smarthome-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81%EC%95%B1) )
   - MQTT Publish 프로그램
