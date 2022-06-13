@@ -63,7 +63,7 @@
 
         <Grid Grid.Row="2" Grid.Column="0" Margin="15">
             <!-- Chart LiveChart(1000개 넘으면 버벅거림) >> OxyPlot -->
-            <oxy:PlotView Model="{Binding SmartHomeModel}"/>
+            <oxy:PlotView Model="{Binding HistoryModel}"/>
 
 
         </Grid>

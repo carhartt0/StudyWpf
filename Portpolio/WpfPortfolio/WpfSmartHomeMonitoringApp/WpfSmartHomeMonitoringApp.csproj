@@ -215,10 +215,19 @@
     </Compile>
     <Compile Include="Helpers\Commons.cs" />
     <Compile Include="Models\DivisionModel.cs" />
+    <Compile Include="Models\SmartHomeModel.cs" />
+    <Compile Include="ViewModels\CustomInfoViewModel.cs" />
+    <Compile Include="ViewModels\CustomPopupViewModel.cs" />
     <Compile Include="ViewModels\DataBaseViewModel.cs" />
     <Compile Include="ViewModels\HistoryViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\RealTimeViewModel.cs" />
+    <Compile Include="Views\CustomInfoView.xaml.cs">
+      <DependentUpon>CustomInfoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CustomPopupView.xaml.cs">
+      <DependentUpon>CustomPopupView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\DataBaseView.xaml.cs" />
     <Compile Include="Views\HistoryView.xaml.cs" />
     <Compile Include="Views\MainView.xaml.cs" />
@@ -256,6 +265,14 @@
     <Resource Include="smart-house.ico" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Views\CustomInfoView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\CustomPopupView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\DataBaseView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
