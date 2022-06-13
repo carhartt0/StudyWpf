@@ -41,6 +41,7 @@
   - MahApps.Metro
   - Caliburn.Mitro
   - LiveChart
+  - OxyPlot.Wpf
   - M2Mqtt
   - Newtonsoft.Json
   - SQLServer DB
@@ -49,3 +50,11 @@
 
 ![SmartHomeMonitoring](https://github.com/carhartt0/StudyWpf/blob/main/capture/SmartHome_DB.png?raw=true)
 DB모니터링 화면
+
+![RealtimeView](https://raw.githubusercontent.com/carhartt0/StudyWpf/main/capture/realtimeView.png)
+실시간 센서 디스플레이
+
+![HistoryView](https://raw.githubusercontent.com/carhartt0/StudyWpf/main/capture/chart.png)
+센서값 시각화 및 프로그램정보 창
+
+<
