@@ -37,6 +37,7 @@
 <br/>
 
 ## SmartHome 모니터링앱
+[이전](https://github.com/carhartt0/StudyWpf)
 -WPF (.NET Framework 4.7.2 / C#)
   - MahApps.Metro
   - Caliburn.Mitro
@@ -57,4 +58,4 @@ DB모니터링 화면
 ![HistoryView](https://raw.githubusercontent.com/carhartt0/StudyWpf/main/capture/chart.png)
 센서값 시각화 및 프로그램정보 창
 
-<
+<br/>
